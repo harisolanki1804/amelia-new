@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Amelia Street Dental</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-webpage">
+        <header>
+            <div class="nav-bar-top">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Health Funds</a>
+                    </li>
+                    <li>
+                        <a href="#">CBDS/DVA</a>
+                    </li>
+                    <li>
+                        <a href="#">Dental Finance</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <button id="ham-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="main-content">
+                <div class="about-us">
+                    <div class="about-info">
+                        <h1>About Us</h1>
+                        <div class="about-text">
+                            <p>
+                                Amelia Street Dental, your trusted QIP Accredited Dental
+                                Practice dedicated to providing exceptional oral health care.
+                                Our team consists of skilled Dentists, Hygienists, Oral Health
+                                Therapists, and Nurses, all committed to delivering top-notch
+                                services that meet the highest standards in the industry.<br><br>
+                                At Amelia Street Dental, we prioritize your dental health and
+                                well-being above all else. With our expertise and
+                                state-of-the-art facilities, we offer a comprehensive range of
+                                dental services tailored to suit your individual needs.
+                                Whether you require routine check-ups, preventive care,
+                                cosmetic treatments, or restorative procedures, rest assured
+                                that you're in capable hands.<br><br>
+                                We understand the importance of staying up-to-date with the
+                                latest advancements in dental technology and techniques.
+                                That's why our team continuously undergoes training to ensure
+                                we provide you with the most effective and innovative
+                                treatments available.<br><br>
+                                As a QIP Accredited Dental Practice, we adhere to stringent
+                                quality standards to guarantee the safety and satisfaction of
+                                our patients. Your comfort and peace of mind are our top
+                                priorities, and we strive to create a welcoming and
+                                stress-free environment for every visit.<br><br>
+                                Experience exceptional dental care with a personal touch at
+                                Amelia Street Dental. Contact us today to schedule your
+                                appointment and take the first step towards achieving a
+                                healthy and beautiful smile.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-gallery">
+                        <div class="container">
+                            <div class="mySlides">
+                                <img src="./Images/slider_01.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_02.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_03.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_04.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_05.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_06.png" style="width: 100%" />
+                            </div>
+                            <div class="mySlides">
+                                <img src="./Images/slider_07.png" style="width: 100%" />
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a class="next" onclick="plusSlides(1)">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+
+                            <!-- Thumbnail images -->
+                            <div class="row">
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_01.png" style="width: 100%"
+                                        onclick="currentSlide(1)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_02.png" style="width: 100%"
+                                        onclick="currentSlide(2)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_03.png" style="width: 100%"
+                                        onclick="currentSlide(3)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_04.png" style="width: 100%"
+                                        onclick="currentSlide(4)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_05.png" style="width: 100%"
+                                        onclick="currentSlide(5)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_06.png" style="width: 100%"
+                                        onclick="currentSlide(6)" />
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="./Images/slider_07.png" style="width: 100%"
+                                        onclick="currentSlide(7)" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-team">
+                    <h1>Meet the team</h1>
+                    <div class="doctors">
+                        <div class="doctor">
+                            <img src="./Images/doctor_01.png" style="border-radius: 50%" />
+                            <h2>Dr. Abhijit Wagh</h2>
+                            <div class="linked-in">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <h3>BDS, MDS, ADC (Melbourne),<span class="break-point"></span> Dental Surgeon</h3>
+                            <div class="doctor-text">
+                                <p>
+                                    Dr. Abhijit Wagh, known as Jeet, is the founder and senior
+                                    dentist at Amelia Street Dental Clinic.<span id="dots">...</span>
+                                    <span id="more">
+                                        With over 25 years of experience, he specializes in
+                                        endodontics, clear aligners, orthodontics, and advanced
+                                        cosmetic dentistry.<br><br>
+                                        Dr. Jeet is dedicated to providing positive dental
+                                        experiences for patients of all ages. As a member of the
+                                        Australian Dental Association and founder member of the
+                                        Australian Clear Aligner Society, he is committed to
+                                        mentoring overseas dental graduates. At Amelia Street Dental
+                                        Clinic, Dr. Jeet and his team strive to enlighten patients
+                                        about their oral health, empowering them with knowledge to
+                                        enrich their overall well-being. They look forward to
+                                        welcoming you to their practice.</span>
+                                </p>
+                                <button onclick="myFunction()" id="myBtn">Read more</button>
+                            </div>
+                        </div>
+                        <div class="doctor">
+                            <img src="./Images/doctor_02.png" style="border-radius: 50%" />
+                            <h2>Dr. Vijaya Wagh</h2>
+                            <div class="linked-in">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <h3>BDS, MDS, ADC (Melbourne),<span class="break-point"></span> Dental Surgeon</h3>
+                            <div class="doctor-text">
+                                <p>
+                                    Dr. Vijaya Wagh, co-founder and senior dentist at Amelia Street Dental Clinic<span
+                                        id="dots01">...</span>
+                                    <span id="more01">
+                                        brings 27 years of expertise in general dental practice. Graduating from
+                                        Government
+                                        Dental College, University of Mumbai in 1994, she further honed her skills in
+                                        Prosthetic Dentistry. After owning a successful private practice and teaching in
+                                        Pune, she completed her Australian Dental Council examination in 2010. Dr.
+                                        Wagh’s
+                                        gentle demeanour and expertise make her adept at managing children and nervous
+                                        patients. Committed to providing the highest standard of dental care, she
+                                        specializes in cosmetic dentistry, kids’ dentistry, and a wide range of
+                                        procedures
+                                        including wisdom teeth removal, root canal treatment, and dental implants.
+                                        <br><br>
+                                        Dr. Wagh’s passion lies in smile designing and cosmetic dentistry, where she
+                                        helps patients enhance their smiles and confidence. Her dedication to
+                                        professional development ensures she stays updated with the latest techniques
+                                        and technology, including completing an upgradation course in Dental
+                                        Implantology. Outside of work, Dr. Wagh enjoys outdoor activities with her
+                                        family, gardening, cooking, and singing with Shamira Entertainment, a
+                                        Perth-based Bollywood music orchestra. She is a member of various prestigious
+                                        dental associations like: <br><br>
+                                        1. Australian Dental Association<br>
+                                        2. Australian Prosthetic Society<br>
+                                        3. Indian Prosthetic Society<br>
+                                        4. Indian Dental Association
+                                    </span>
+                                </p>
+                                <button onclick="myFunction01()" id="myBtn01">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-msg">
+                    <div class="team-img">
+                        <img src="./Images/Ameliateamfinal.jpg">
+                    </div>
+                    <div class="text">
+                        <ul>
+                            <li class="quote">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </li>
+                            <li class="team-text"><span class="bold-text">Enlighten You</span> <span
+                                    class="break-point"></span> about your dental
+                                concerns,
+                            </li>
+                            <li class="team-text"><span class="bold-text">Empower You</span> <span
+                                    class="break-point"></span> with Cost Effective and
+                                Contemporary Solutions,
+                            </li>
+                            <li class="team-text"><span class="bold-text">Enrich Your</span><span
+                                    class="break-point"></span> Dental and Oral Wellbeing
+                            </li>
+                            <li class="quote">
+                                <i class="fa-solid fa-quote-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="web-footer">
+                <div class="footer-address">
+                    <h2>ADDRESS</h2>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/yptwXNBat1kxrn3v7" target="_blank">Suite 1, 210 Amelia
+                                Street
+                                Balcatta, WA
+                                6021</a></li>
+                        <li><a href="tel:+61893442233">Tel: (08) 9344 2233</a></li>
+                        <li>Fax: (08) 93443484</li>
+                    </ul>
+                </div>
+                <div class="footer-loc-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.201358407015!2d115.82762047648065!3d-31.873941118521074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ae35a3253ebd%3A0x1ac5823c4627608e!2sAmelia%20Street%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1725972126193!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-opening-hours">
+                    <h2>OPENING HOURS</h2>
+                    <ul>
+                        <li>Monday-Friday: 9:00am - 6:00pm</li>
+                        <li>Saturday: By Appointment (9:00am - 1:00pm)</li>
+                        <li>Sunday/Public Holiday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Follow Us On</h2>
+                    <div class="contact-list">
+                        <div class="links">
+                            <a href="https://www.facebook.com/AmeliaDental?mibextid=LQQJ4d" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/amelia_dental" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/amelia-street-dental" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="footer-bookapt">
+                            <button class="footer-button" onclick="openLink(
+                                'https://www.centaurportal.com/d4w/org-971/extended_search?location=1129&randomNumber=fd2d283bcf9bb658eeae815dfec11a2d23052fb4cdf85d3f7ba0eb72a2f37e1b&shortVer=false&sourceID=null '
+                            )">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 by Amelia Street Dental. <span class="break-point"></span> <a
+                        href="https://www.themadspot.com/" target="_blank"> Created & designed by MAD Spot</a> |
+                    <span class="break-point"></span> <a href="">Privacy Policy</a> | <a href="">Site Map</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
