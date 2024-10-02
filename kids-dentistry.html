@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Dentistry | Amelia Street Dental</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-webpage">
+        <header>
+            <div class="nav-bar-top">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About Us</a>
+                    </li>
+                    <li class="active">
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Health Funds</a>
+                    </li>
+                    <li>
+                        <a href="#">CBDS/DVA</a>
+                    </li>
+                    <li>
+                        <a href="#">Dental Finance</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <button id="ham-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="serv-container">
+                <div class="serv-col">
+                    <div class="serv-cov-txt">
+                        <h2>Kids Dentistry</h2>
+                        <h4>Compassionate Dental Care for Kids of All Ages</h4>
+                        <p>
+                            Did you know that 1 in 5 kids between the ages of 5 and 11 has untreated dental decay? Many
+                            children suffer from cavities, but with routine dental care, your child does not have to.
+                            The experienced and gentle dental experts at Amelia Street Dental Clinic are here to provide
+                            exams and cleanings, dental fillings, and other services to ensure that your children grow
+                            up with healthy teeth and gums.<br><br>
+                            Baby teeth or deciduous teeth are very important for proper alignment of the adult teeth as
+                            well as the proper growth of the jaws. Each and every tooth plays an important role till it
+                            is shed so it is vitally important that they are looked after well and do not decay or
+                            fracture.
+                        </p>
+                    </div>
+                    <div class="serv-cov-img">
+                        <img src="./Images/service_item_01.png">
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="serv-avail">
+                        <div class="serv-list">
+                            <div class="serv-item pre-serv">
+                                <h4>Our Pediatric Dental Services</h4>
+                                <p>
+                                    We offer the following treatment options for children and teens: <span
+                                        id="serv-dot-01">...</span><br><br>
+
+                                    <span id="serv-more-01" class="hiddenDetail">
+                                        • Routine exams and cleanings <br>
+                                        • Fillings for cavities <br>
+                                        • Space maintainers <br>
+                                        • Invisalign <br>
+                                        • Traditional braces <br>
+                                        • Habit-breaking appliances <br>
+                                        • Fluoride treatments <br>
+                                        • Root canals <br>
+                                        • Crowns and bridges <br>
+                                        • Extractions <br>
+                                        • … And more
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-01', 'serv-more-01', 'servBtn01')"
+                                    id="servBtn01">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Does Your Child Need a Dental Appointment?</h4>
+                                <p>
+                                    Not sure if your child needs a dental appointment? Once kids’ teeth start coming in,
+                                    routine check-ups to the dentist’s<span id="serv-dot-02">...</span>
+                                    <span id="serv-more-02" class="hiddenDetail">
+                                        office are a good habit. In fact, after your
+                                        child’s first tooth appears, you should wait no longer than 6 months before
+                                        visiting the dentist. The Australian Dental Association recommends to have your
+                                        child’s first dental appointment at about 12 months of age.
+                                        Early dental visits make the child familiar with the dental environment, makes
+                                        them more confident and gets them accustomed to preventive dental care. Good
+                                        oral hygiene habits are developed early. <br><br>
+                                        After that, a routine exam and cleaning should take place every six months or
+                                        so. If it has been more than six months since your child has been to the
+                                        dentist, now is the time to book an appointment.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-02', 'serv-more-02', 'servBtn02')"
+                                    id="servBtn02">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Benefits of Pediatric Dental Care</h4>
+                                <p>
+                                    • Treat and prevent cavities.<span id="serv-dot-03">...</span><br>
+                                    <span id="serv-more-03" class="hiddenDetail">
+                                        • Help your child’s teeth come in straight, and/or straighten teeth later.<br>
+                                        • Maintain healthy gums to protect against gum disease.<br>
+                                        • Prevent or treat pain so your child can enjoy every day to its fullest.<br>
+                                        • Teach children good dental habits that they can use to protect their smiles
+                                        for
+                                        life.<br>
+                                        • Early identification and intervention for deleterious habits like thumb
+                                        sucking
+                                        etc.<br>
+                                        • Give them good nutritional advice.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-03', 'serv-more-03', 'servBtn03')"
+                                    id="servBtn03">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>We Provide a Positive Experience to Encourage Oral Hygiene </h4>
+                                <p>
+                                    Here at Amelia Street Dental Clinic, we know that many children are nervous about
+                                    going to the dentist. <span id="serv-dot-04">...</span>
+
+                                    <span id="serv-more-04" class="hiddenDetail">
+                                        That is why our dentists are not only trained to provide
+                                        comprehensive dental care, but also to reassure young patients and make them
+                                        feel welcome, comfortable, and secure.<br><br>
+                                        In fact, we strive to make the dentist’s office an enjoyable place to visit! We
+                                        want kids to associate dental care with fun.<br><br>
+                                        That way, they are more likely to take care of their own dental health at home.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-04', 'serv-more-04', 'servBtn04')"
+                                    id="servBtn04">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Keeping Pediatric Dentistry Affordable with the Child Dental Benefits Schedule</h4>
+                                <p>
+                                    Did you know that if your child is between ages 2 and 17, up to $1,013 in dental
+                                    services may be covered over <span id="serv-dot-05">...</span>
+                                    <span id="serv-more-05" class="hiddenDetail">
+                                        a two-year period through the Child Dental Benefits Schedule (CDBS)?<br><br>
+                                        In order to be eligible for this benefit, you must qualify for Medicare, and
+                                        receive at least one payment per year.<br><br>
+                                        <a href="#">Learn more about CDBS and what it covers.</a> <br><br>
+                                        We are a bulk billing practice for CDBS patients so there will be no out of
+                                        pocket expenses for eligible patients.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-05', 'serv-more-05', 'servBtn05')"
+                                    id="servBtn05">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Fillings</h4>
+                                <p>
+                                    As reported by the government, “Around 4 in 10 (42%) children aged 5–10 had
+                                    experienced dental caries in their [baby] teeth.”<span
+                                        id="serv-dot-06">...</span><br><br>
+                                    <span id="serv-more-06" class="hiddenDetail">
+                                        Kids who experience cavities may feel pain and sensitivity, and may also miss
+                                        school days and have lower grades.<br><br>
+                                        Amelia Street Dental Clinic’s fast, gentle fillings stop dental decay from
+                                        getting worse, strengthening children’s teeth.<br><br>
+                                        That way, they can keep enjoy life to its fullest without tooth pain.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-06', 'serv-more-06', 'servBtn06')"
+                                    id="servBtn06">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Space Maintainers</h4>
+                                <p>
+                                    Usually when children lose their baby teeth, permanent teeth grow in quickly to
+                                    replace them. But sometimes, a baby<span id="serv-dot-07">...</span>
+                                    <span id="serv-more-07" class="hiddenDetail">
+                                        tooth comes out long before a permanent tooth is
+                                        ready to grow in. <br><br>
+                                        We can provide your child with space maintainers. These dental appliances ensure
+                                        that neighbouring teeth do not migrate or grow into the open space before the
+                                        permanent tooth can take its proper place.<br><br>
+                                        That way, your child is less likely to require braces later
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-07', 'serv-more-07', 'servBtn07')"
+                                    id="servBtn07">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Habit Breaking Appliances</h4>
+                                <p>
+                                    Does your child still engage in thumb sucking past the age of four? If it continues
+                                    longer, your child may develop an open bite<span id="serv-dot-08">...</span>
+                                    <span id="serv-more-08" class="hiddenDetail">
+                                        or other dental problems. <br><br>
+                                        We can put a fixed dental appliance on the roof of your child’s mouth to help
+                                        break the habit of thumb-sucking. <br><br>
+                                        The appliance is not painful, but it makes it impossible to enjoy thumb
+                                        sucking.<br><br>
+                                        The process usually requires around a month or more. Eventually, your child will
+                                        discover another method to self-soothe.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-08', 'serv-more-08', 'servBtn08')"
+                                    id="servBtn08">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>Extractions</h4>
+                                <p>
+                                    Sometimes, your child might have a tooth that is too decayed for a filling. If it is
+                                    a baby tooth, it might need to come out anyway. <span id="serv-dot-09">...</span>
+                                    <br><br>
+                                    <span id="serv-more-09" class="hiddenDetail">
+                                        Baby teeth also sometimes are in the way as permanent teeth grow in near them,
+                                        which can lead to misalignment.<br><br>
+                                        Pulling a tooth can provide space for permanent teeth to grow in
+                                        straight.<br><br>
+                                        If a tooth is badly decayed, removing it can also keep decay and infection from
+                                        spreading, and stop the pain your child may be in.<br><br>
+                                        We know that getting a tooth pulled can be scary for a child, which is why our
+                                        pediatric specialists are gentle, communicative, and compassionate. <br><br>
+                                        We will make sure the area is fully numb before pulling your child’s tooth, and
+                                        will ensure that they feel safe and comfortable throughout the visit.
+
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-09', 'serv-more-09', 'servBtn09')"
+                                    id="servBtn09">Read more</button>
+                            </div>
+                            <div class="serv-item pre-serv">
+                                <h4>How Kids Can Maintain Their Oral Health</h4>
+                                <p>
+                                    Your children can take care of their teeth and gums between appointments by: <span
+                                        id="serv-dot-10">...</span><br><br>
+                                    <span id="serv-more-10" class="hiddenDetail">
+                                        • Brushing teeth and gums twice daily for two minutes.<br>
+                                        • Rinsing with mouthwash (for ages 6 and up).<br><br>
+                                        You can also help out by monitoring your child’s oral care habits when they are
+                                        young.<br><br><br>
+                                        Some rules of the thumb for your child’s dental visit. These are recommended by
+                                        the Australian Dental Association.<br><br>
+                                        1. Please do not tell your child to be brave (they already are.)<br>
+                                        2. Please do not bribe your child.<br>
+                                        3. Please do not till your child that it won’t hurt (or it will).<br>
+                                        4. Please do not use the dentist appointment as a deterrent or a punishment.<br>
+                                        5. Please do not be too anxious as a parent. Your calmness encourages your
+                                        child.<br>
+                                        6. Listen to the dentist’s advice. Do not interfere when they are speaking. All
+                                        dentists are trained well to manage children.
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('serv-dot-10', 'serv-more-10', 'servBtn10')"
+                                    id="servBtn10">Read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="serv-qna">
+                        <div class="qna-item">
+                            <div class="qna-img">
+                                <img src="./Images/smile.png" height="30">
+                            </div>
+                            <div class="qna-text">
+                                <h3>Get Your Child Gentle Dental Care Now</h3>
+                                <p>
+                                    Your child doesn’t have to live with the pain of untreated cavities. Amelia Street
+                                    Dental Clinic is here to treat your child’s dental decay and teach healthy habits
+                                    for life.<br><br>
+                                    Our clinic is very popular among parents and kids. Take a look at some of our
+                                    testimonials to see what [City] area parents have to say about our pediatric dental
+                                    services.<br><br>
+                                    Ready to book your child’s next dental appointment? Call (number) today. We look
+                                    forward to providing your child with compassionate, fun, and effective dental care.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="serv-col">
+                    <div class="bookSchedule">
+                        <div class="SchText">
+                            <h4>
+                                To schedule your consult now, please call <a href="#">Number</a>
+                            </h4>
+                        </div>
+                        <div class="SchBtn">
+                            <button onclick="openLink(
+                                    'https://www.centaurportal.com/d4w/org-971/extended_search?location=1129&randomNumber=fd2d283bcf9bb658eeae815dfec11a2d23052fb4cdf85d3f7ba0eb72a2f37e1b&shortVer=false&sourceID=null '
+                                )">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="web-footer">
+                <div class="footer-address">
+                    <h2>ADDRESS</h2>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/yptwXNBat1kxrn3v7" target="_blank">Suite 1, 210 Amelia
+                                Street
+                                Balcatta, WA
+                                6021</a></li>
+                        <li><a href="tel:+61893442233">Tel: (08) 9344 2233</a></li>
+                        <li>Fax: (08) 93443484</li>
+                    </ul>
+                </div>
+                <div class="footer-loc-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.201358407015!2d115.82762047648065!3d-31.873941118521074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ae35a3253ebd%3A0x1ac5823c4627608e!2sAmelia%20Street%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1725972126193!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-opening-hours">
+                    <h2>OPENING HOURS</h2>
+                    <ul>
+                        <li>Monday-Friday: 9:00am - 6:00pm</li>
+                        <li>Saturday: By Appointment (9:00am - 1:00pm)</li>
+                        <li>Sunday/Public Holiday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Follow Us On</h2>
+                    <div class="contact-list">
+                        <div class="links">
+                            <a href="https://www.facebook.com/AmeliaDental?mibextid=LQQJ4d" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/amelia_dental" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/amelia-street-dental" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="footer-bookapt">
+                            <button class="footer-button" onclick="openLink(
+                                'https://www.centaurportal.com/d4w/org-971/extended_search?location=1129&randomNumber=fd2d283bcf9bb658eeae815dfec11a2d23052fb4cdf85d3f7ba0eb72a2f37e1b&shortVer=false&sourceID=null '
+                            )">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 by Amelia Street Dental. <span class="break-point"></span> <a
+                        href="https://www.themadspot.com/" target="_blank"> Created & designed by MAD Spot</a> |
+                    <span class="break-point"></span> <a href="">Privacy Policy</a> | <a href="">Site Map</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
