@@ -59,9 +59,9 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-// setInterval(() => {
-//     plusSlides(1);
-// }, 3500)
+setInterval(() => {
+    plusSlides(1);
+}, 5000)
 
 // READ MORE :-
 var elementsId = [
