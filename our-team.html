@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | Amelia Street Dental</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-webpage">
+        <header>
+            <div class="nav-bar-top">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="dropbtn active">
+                            About Us
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./about.html">About</a>
+                            <a href="./our-team.html">Our Team</a>
+                            <a href="./our-differences.html">Our Differences</a>
+                        </div>
+                    </div>
+                    <li>
+                        <a href="./our-treatments.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="./health-funds.html">Health Funds</a>
+                    </li>
+                    <li>
+                        <a href="#">CBDS/DVA</a>
+                    </li>
+                    <li>
+                        <a href="#">Dental Finance</a>
+                    </li>
+                    <li>
+                        <a href="./contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <button id="ham-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="main-content">
+                <div class="our-founders">
+                    <h1>Meet Our Founders</h1>
+                    <div class="doctors">
+                        <div class="doctor">
+                            <img src="./Images/doctor_01.png" style="border-radius: 50%" />
+                            <h2>Dr. Abhijit Wagh</h2>
+                            <div class="linked-in">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <h3>BDS, MDS, ADC (Melbourne),<span class="break-point"></span> Dental Surgeon</h3>
+                            <div class="doctor-text">
+                                <p>
+                                    Dr. Abhijit Wagh, known as Jeet, is the founder and senior
+                                    dentist at Amelia Street Dental Clinic.<span id="dots">...</span>
+                                    <span id="more">
+                                        With over 25 years of experience, he specializes in
+                                        endodontics, clear aligners, orthodontics, and advanced
+                                        cosmetic dentistry.<br><br>
+                                        Dr. Jeet is dedicated to providing positive dental
+                                        experiences for patients of all ages. As a member of the
+                                        Australian Dental Association and founder member of the
+                                        Australian Clear Aligner Society, he is committed to
+                                        mentoring overseas dental graduates. At Amelia Street Dental
+                                        Clinic, Dr. Jeet and his team strive to enlighten patients
+                                        about their oral health, empowering them with knowledge to
+                                        enrich their overall well-being. They look forward to
+                                        welcoming you to their practice.</span>
+                                </p>
+                                <button onclick="toggleReadMore('dots', 'more', 'myBtn')" id="myBtn">Read more</button>
+                            </div>
+                        </div>
+                        <div class="doctor">
+                            <img src="./Images/doctor_02.png" style="border-radius: 50%" />
+                            <h2>Dr. Vijaya Wagh</h2>
+                            <div class="linked-in">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <h3>BDS, MDS, ADC (Melbourne),<span class="break-point"></span> Dental Surgeon</h3>
+                            <div class="doctor-text">
+                                <p>
+                                    Dr. Vijaya Wagh, co-founder and senior dentist at Amelia Street Dental Clinic<span
+                                        id="dots01">...</span>
+                                    <span id="more01">
+                                        brings 27 years of expertise in general dental practice. Graduating from
+                                        Government
+                                        Dental College, University of Mumbai in 1994, she further honed her skills in
+                                        Prosthetic Dentistry. After owning a successful private practice and teaching in
+                                        Pune, she completed her Australian Dental Council examination in 2010. Dr.
+                                        Wagh’s
+                                        gentle demeanour and expertise make her adept at managing children and nervous
+                                        patients. Committed to providing the highest standard of dental care, she
+                                        specializes in cosmetic dentistry, kids’ dentistry, and a wide range of
+                                        procedures
+                                        including wisdom teeth removal, root canal treatment, and dental implants.
+                                        <br><br>
+                                        Dr. Wagh’s passion lies in smile designing and cosmetic dentistry, where she
+                                        helps patients enhance their smiles and confidence. Her dedication to
+                                        professional development ensures she stays updated with the latest techniques
+                                        and technology, including completing an upgradation course in Dental
+                                        Implantology. Outside of work, Dr. Wagh enjoys outdoor activities with her
+                                        family, gardening, cooking, and singing with Shamira Entertainment, a
+                                        Perth-based Bollywood music orchestra. She is a member of various prestigious
+                                        dental associations like: <br><br>
+                                        1. Australian Dental Association<br>
+                                        2. Australian Prosthetic Society<br>
+                                        3. Indian Prosthetic Society<br>
+                                        4. Indian Dental Association
+                                    </span>
+                                </p>
+                                <button onclick="toggleReadMore('dots01', 'more01', 'myBtn01')" id="myBtn01">Read
+                                    more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-team">
+                    <h1>Meet Our Team</h1>
+                    <div class="team-member-list">
+                        <div class="team-member">
+                            <img src="./Images/slider_01.png" style="border-radius: 50%" />
+                            <h2>Anashri</h2>
+                            <h4>Nurse</h4>
+                            <div class="member-text">
+                                <p>
+                                    Anashri is a long-term member of Amelia Street Dental’s nursing staff since 2018.
+                                    Originally, she worked as a dental nurse, <span id="dotMem01">.....</span>
+                                    <span id="moreMem01">
+                                        and received her Certificate IV in Dental
+                                        Assistant at Oral Health Centre of WA (OCHWA) in 2018. She loves nursing and
+                                        always eager to help and motivate patients on their way to great oral health. In
+                                        her spare time, she enjoys cooking, watching movies, listening to music,
+                                        catching up with friends, and taking photos. She loves sharing snaps of her
+                                        1-year-old daughter on Facebook. <br><br>
+                                        <b>What Do You Bring to Patients at Amelia Street Dental?</b><br><br>
+                                        “I love getting to know patients and making them feel comfortable while
+                                        receiving dental treatment. I can speak multiple languages (Hindi, Punjabi)
+                                        other than English. I can assist culturally and linguistically diverse (CALD)
+                                        background patients as well if required.
+                                    </span>
+                                </p>
+                                <button id="member01" onclick="toggleReadMore('dotMem01', 'moreMem01', 'member01')">Read
+                                    More</button>
+                            </div>
+                            <b>
+                                “I am always willing to learn a new thing that comes my way. I enjoy every minute of my
+                                work and am committed to providing patients with the highest standard of care and
+                                compassion. I look forward to meeting you and welcoming you at our lovely and friendly
+                                family dental clinic.”
+                            </b>
+                        </div>
+                        <div class="team-member">
+                            <img src="./Images/slider_01.png" style="border-radius: 50%" />
+                            <h2>Innes</h2>
+                            <h4>Nurse</h4>
+                            <div class="member-text">
+                                <p>
+
+                                    Innes earned a Certificate IV in Dental Assisting through TAFE in 2020. Along with
+                                    dental assisting at Amelia Street Dental, <span id="dotMem02">.....</span>
+                                    <span id="moreMem02">
+                                        he takes care of sterilisation work.
+                                        Originally from Indonesia, she was raised in Perth, and is fluent in Bahasa and
+                                        English. She loves the Aussie winter and learning new cultures and languages.
+                                        When you call Amelia Street Dental, you may be speaking with Innes.<br><br>
+                                        <b>What Do You Bring to Patients at Amelia Street Dental?</b><br><br>
+                                        “I have a nursing background which helps when interacting with our patients,
+                                        being attentive not only for their medical needs but also emotionally as it can
+                                        be quite nerve-racking going to the dentist.”
+                                    </span>
+                                </p>
+                                <button id="member02" onclick="toggleReadMore('dotMem02', 'moreMem02', 'member02')">Read
+                                    More</button>
+                            </div>
+                            <b>
+                                “I love helping our patients in providing for their dental needs with dignity and
+                                respect.”
+                            </b>
+                        </div>
+                        <div class="team-member">
+                            <img src="./Images/slider_01.png" style="border-radius: 50%" />
+                            <h2>Jo</h2>
+                            <h4>Nurse</h4>
+                            <div class="member-text">
+                                <p>
+                                    Originally from country South Australia, Jo moved to Perth in 2019 and has made it
+                                    her home. She is a member of <span id="dotMem03">.....</span>
+                                    <span id="moreMem03">
+                                        the office staff at Amelia Street Dental and has more
+                                        than 20 years of experience in the customer service industry. For many patients,
+                                        she is the first point of contact. She joined the world of dentistry in 2016 and
+                                        trained as a dental nurse. In her spare time, she enjoys spending time with her
+                                        family, camping, and exploring WA.<br><br>
+                                        <b>What Do You Bring to Patients at Amelia Street Dental?</b><br><br>
+                                        “I love being able to work chairside but also meet and greet the patients on the
+                                        front desk. While I enjoy all aspects of dentistry and dental care, I am most
+                                        passionate about preventative dentistry.”
+                                    </span>
+                                </p>
+                                <button id="member03" onclick="toggleReadMore('dotMem03', 'moreMem03', 'member03')">Read
+                                    More</button>
+                            </div>
+                            <b>
+                                “You will always find me out at the front handling your questions, phone calls, bookings
+                                and payments. I strive to give our patients and their families a positive and friendly
+                                experience in our practice. I look forward to welcoming you at our lovely and caring
+                                family practice.”
+                            </b>
+                        </div>
+                        <div class="team-member">
+                            <img src="./Images/slider_01.png" style="border-radius: 50%" />
+                            <h2>Reta</h2>
+                            <h4>Nurse</h4>
+                            <div class="member-text">
+                                <p>
+                                    When you visit Amelia Street Dental, you may meet Reta in the front office, or she
+                                    might be your dental nurse <span id="dotMem04">.....</span>
+                                    <span id="moreMem04">
+                                        She is an Iraqi-Australian, having moved to Australia
+                                        during childhood. She is fluent in Arabic, Assyrian, Neo Aramic, and English.
+                                        She loves Perth and its nice weather and enjoys cooking and shopping in her time
+                                        off. She has recently become a mother to a baby boy and is currently on
+                                        maternity leave.<br><br>
+                                        <b>What Do You Bring to Patients at Amelia Street Dental?</b><br><br>
+                                        “I am a trained Dental Lab Assistant from Oral Health Centre, WA, and also a
+                                        trained Dental Nurse. Working with children is so much fun and exciting. I am
+                                        happy to help and comfort anxious patients to make their appointments most
+                                        relaxing and enjoyable. I particularly like to assist with surgical tooth
+                                        extractions.”
+                                    </span>
+                                </p>
+                                <button id="member04" onclick="toggleReadMore('dotMem04', 'moreMem04', 'member04')">Read
+                                    More</button>
+                            </div>
+                            <b>
+                                “I joined Amelia St Dental as a dental nurse, and it’s been the most beautiful
+                                environment to work. I look forward to seeing you at our practice and I assure you that
+                                you will have the most pleasant experience.”
+                            </b>
+                        </div>
+                        <div class="team-member">
+                            <img src="./Images/slider_01.png" style="border-radius: 50%" />
+                            <h2>Oyuna</h2>
+                            <h4>Nurse</h4>
+                            <div class="member-text">
+                                <p>
+                                    I am from Mongolia and am an overseas qualified dentist. Currently, I am pursuing my
+                                    postgraduate degree in <span id="dotMem05">.....</span>
+                                    <span id="moreMem05">
+                                        Dental Public Health at UWA. My husband and 5-year-old son
+                                        have loved the move to sunny Australia, and it has definitely changed our
+                                        lifestyle to a more active and healthier one.<br><br>
+                                        <b>What Do You Bring to Patients at Amelia Street Dental?</b><br><br>
+                                        My dental background helps me perform my nursing duties with ease. I can relate
+                                        with anxious patients and make sure they are at ease before we begin. I enjoy
+                                        all aspects of dental care and we as a team are making sure that we contribute
+                                        to increase the oral health in the community.
+                                    </span>
+                                </p>
+                                <button id="member05" onclick="toggleReadMore('dotMem05', 'moreMem05', 'member05')">Read
+                                    More</button>
+                            </div>
+                            <b>
+                                “I work in Amelia Street Dental as a dental nurse and have loved every moment that I
+                                have been here. The team here really cares about all their patients and ensures that
+                                everyone gets the best treatment always.”
+                            </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="web-footer">
+                <div class="footer-address">
+                    <h2>ADDRESS</h2>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/yptwXNBat1kxrn3v7" target="_blank">Suite 1, 210 Amelia
+                                Street
+                                Balcatta, WA
+                                6021</a></li>
+                        <li><a href="tel:+61893442233">Tel: (08) 9344 2233</a></li>
+                        <li>Fax: (08) 93443484</li>
+                    </ul>
+                </div>
+                <div class="footer-loc-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.201358407015!2d115.82762047648065!3d-31.873941118521074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32ae35a3253ebd%3A0x1ac5823c4627608e!2sAmelia%20Street%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1725972126193!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-opening-hours">
+                    <h2>OPENING HOURS</h2>
+                    <ul>
+                        <li>Monday-Friday: 9:00am - 6:00pm</li>
+                        <li>Saturday: By Appointment (9:00am - 1:00pm)</li>
+                        <li>Sunday/Public Holiday: Closed</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Follow Us On</h2>
+                    <div class="contact-list">
+                        <div class="links">
+                            <a href="https://www.facebook.com/AmeliaDental?mibextid=LQQJ4d" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/amelia_dental" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/amelia-street-dental" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="footer-bookapt">
+                            <button class="footer-button" onclick="openLink(
+                                'https://www.centaurportal.com/d4w/org-971/extended_search?location=1129&randomNumber=fd2d283bcf9bb658eeae815dfec11a2d23052fb4cdf85d3f7ba0eb72a2f37e1b&shortVer=false&sourceID=null '
+                            )">Book Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 by Amelia Street Dental. <span class="break-point"></span> <a
+                        href="https://www.themadspot.com/" target="_blank"> Created & designed by MAD Spot</a> |
+                    <span class="break-point"></span> <a href="">Privacy Policy</a> | <a href="">Site Map</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
