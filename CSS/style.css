@@ -961,6 +961,10 @@ main .main-service-list .main-services-item .item-info button:hover {
     font-size: 16px;
 }
 
+.serv-avail .serv-list .serv-item p span a {
+    color: #000;
+}
+
 .serv-avail .serv-list .serv-item button,
 .serv-col .faq-list .faqs button {
     height: 30px;
